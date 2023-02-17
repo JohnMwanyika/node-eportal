@@ -1,0 +1,214 @@
+extends layout
+
+block content
+  //- include includes/nav
+  section#hero.d-flex.align-items-center
+    .container
+      .row
+        .col-lg-6.d-flex.flex-column.justify-content-center.pt-4.pt-lg-0.order-2.order-lg-1(data-aos="fade-up", data-aos-delay="200")
+          h1 Welcome to #{title}
+          h2 Bringing Services Closer to Mwananchi
+          .d-flex.justify-content-center.justify-content-lg-start
+            a.btn-get-started.scrollto(href="login.html") sign in
+            a.btn-sign-up.scrollto(href="login.html") sign up
+            //- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> 
+        .col-lg-6.order-1.order-lg-2.hero-img(data-aos="zoom-in", data-aos-delay="200")
+          img.img-fluid.animated(src="assets/img/hero-img.png", alt)
+  main#main
+    //-  ======= Services Section ======= 
+    section#services.services.section-bg
+      .container(data-aos="fade-up")
+        .section-title
+          h2 Departments
+        .row.mt-lg-4.mb-4(style="justify-content: center;")
+          .col-xl-3.col-md-6.d-flex.align-items-stretch(data-aos="zoom-in", data-aos-delay="100")
+            .icon-box.border.allround
+              .icon
+                i.bx.bxl-dribbble
+              h4
+                a(href) Devolution & Public Service Administration
+              p Development of Drought and Disaster contingency funds and plans.
+          .col-xl-3.col-md-6.d-flex.align-items-stretch.mt-4.mt-md-0(data-aos="zoom-in", data-aos-delay="200")
+            .icon-box.allround
+              .icon
+                i.bx.bx-file
+              h4
+                a(href) Finance & Economic Planning
+              p Developing and implementing financial and economic policies in the county;
+          .col-xl-3.col-md-6.d-flex.align-items-stretch.mt-4.mt-xl-0(data-aos="zoom-in", data-aos-delay="300")
+            .icon-box.allround
+              .icon
+                i.bx.bx-tachometer
+              h4
+                a(href) Water, Enviroment & Sanitation
+              p Fair distribution of Water Resources and the recognition that water is a constitutional and human right to our citizens
+        .row
+          .col-xl-3.col-md-6.d-flex.align-items-stretch(data-aos="zoom-in", data-aos-delay="100")
+            .icon-box
+              .icon
+                i.bx.bxl-dribbble
+              h4
+                a(href) Lands, Mining & Housing
+              p Recruit human resource with a capacity to indulge in qualitative and quantitative investigations
+          .col-xl-3.col-md-6.d-flex.align-items-stretch.mt-4.mt-md-0(data-aos="zoom-in", data-aos-delay="200")
+            .icon-box
+              .icon
+                i.bx.bx-file
+              h4
+                a(href) Agriculture, Livestock, irrigation & Fisheries
+              p Increase the acreage under irrigation Promote water harvesting for irrigation;
+          .col-xl-3.col-md-6.d-flex.align-items-stretch.mt-4.mt-xl-0(data-aos="zoom-in", data-aos-delay="300")
+            .icon-box
+              .icon
+                i.bx.bx-tachometer
+              h4
+                a(href) Trade, Tourism, Industrialization and Coperative Development
+              p.
+                Training of Traders , Provision of credit and establishment of local and international trade networks.
+                
+          .col-xl-3.col-md-6.d-flex.align-items-stretch.mt-4.mt-xl-0(data-aos="zoom-in", data-aos-delay="400")
+            .icon-box
+              .icon
+                i.bx.bx-layer
+              h4
+                a(href) Health Services
+              p Construction and Equipping health facilities with basic diagnostic equipment.
+        .row.mt-lg-4
+          .col-xl-3.col-md-6.d-flex.align-items-stretch(data-aos="zoom-in", data-aos-delay="100")
+            .icon-box
+              .icon
+                i.bx.bxl-dribbble
+              h4
+                a(href) Service Delivery, Industrialization, Energy & Tourism
+              p This department will initially focus on small scale enterprises found within the county with a view to enhance efficiency and productivity
+          .col-xl-3.col-md-6.d-flex.align-items-stretch.mt-4.mt-md-0(data-aos="zoom-in", data-aos-delay="200")
+            .icon-box
+              .icon
+                i.bx.bx-file
+              h4
+                a(href)
+                  | Youth,Sports,
+                  br
+                  | Gender,
+                  br
+                  | Culture & Social Services
+              p Provide youth with capital to start income generating activities.
+          .col-xl-3.col-md-6.d-flex.align-items-stretch.mt-4.mt-xl-0(data-aos="zoom-in", data-aos-delay="300")
+            .icon-box
+              .icon
+                i.bx.bx-tachometer
+              h4
+                a(href) Education, Libraries & Vocational Training Colleges
+              p Construction of school facilities and provision of teaching and learning facilities.
+          .col-xl-3.col-md-6.d-flex.align-items-stretch.mt-4.mt-xl-0(data-aos="zoom-in", data-aos-delay="400")
+            .icon-box
+              .icon
+                i.bx.bx-layer
+              h4
+                a(href) Public Works,Transport & Infustructure
+              p Upgrading of Major roads to bitumen standard.
+    //  End Services Section 
+    .card
+      .card__img
+        //  <img src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png"> 
+        .card__grid-effect
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
+          a.card__grid-effect-tile(href="#")
