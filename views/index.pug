@@ -1,19 +1,20 @@
 extends layout
 
 block content
-  //- include includes/nav
-  section#hero.d-flex.align-items-center
-    .container
-      .row
-        .col-lg-6.d-flex.flex-column.justify-content-center.pt-4.pt-lg-0.order-2.order-lg-1(data-aos="fade-up", data-aos-delay="200")
-          h1 Welcome to #{title}
-          h2 Bringing Services Closer to Mwananchi
-          .d-flex.justify-content-center.justify-content-lg-start
-            a.btn-get-started.scrollto(href="login.html") sign in
-            a.btn-sign-up.scrollto(href="login.html") sign up
-            //- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> 
-        .col-lg-6.order-1.order-lg-2.hero-img(data-aos="zoom-in", data-aos-delay="200")
-          img.img-fluid.animated(src="assets/img/hero-img.png", alt)
+  include includes/hero
+  //- section#hero.d-flex.align-items-center
+  //-   .container
+  //-     .row
+  //-       .col-lg-6.d-flex.flex-column.justify-content-center.pt-4.pt-lg-0.order-2.order-lg-1(data-aos="fade-up", data-aos-delay="200")
+  //-         h1 Hello
+  //-         h1 Welcome to #{title}
+  //-         h2 Bringing Services Closer to Mwananchi
+  //-         .d-flex.justify-content-center.justify-content-lg-start
+  //-           a.btn-get-started.scrollto(href="#") sign in
+  //-           a.btn-sign-up.scrollto(href="#") sign up
+  //-           //- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> 
+  //-       .col-lg-6.order-1.order-lg-2.hero-img(data-aos="zoom-in", data-aos-delay="200")
+  //-         img.img-fluid.animated(src="/assets/img/hero-img.png", alt)
   main#main
     //-  ======= Services Section ======= 
     section#services.services.section-bg

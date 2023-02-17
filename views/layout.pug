@@ -1,10 +1,11 @@
 doctype html
-html
+html(lang="en")
   head
-    meta(charset="utf-8")
-    meta(content="width=device-width,initial-scale=1" name="viewport")
-    meta(content, name="description")
-    meta(content, name="keywords")
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    //- meta(charset="utf-8")
+    //- meta(content="width=device-width,initial-scale=1" name="viewport")
     title=title
     //-  Favicons 
     link(href="/assets/img/favicon.png" rel="icon")
@@ -22,12 +23,13 @@ html
     //-  Template Main CSS File 
     link(href="/assets/css/style.css" rel="stylesheet")
     link(href="/assets/css/style2.css" rel="stylesheet")
-    
+
     //- link(rel='stylesheet' href='/stylesheets/style.css')
   body
     //- renders nav bar
     include includes/nav
-
+    //- rnders Hero
+    //- include includes/hero
     block content
 
     include includes/footer 
@@ -44,3 +46,4 @@ html
     script(src="/assets/vendor/waypoints/noframework.waypoints.js")
     script(src="/assets/vendor/php-email-form/validate.js")
     //-  Template Main JS File 
+    script(src="/assets/js/main.js")
